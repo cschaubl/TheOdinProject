@@ -1,0 +1,23 @@
+header
+align all items through center
+text to text: 30
+center image to center image: 90
+left edge to first text: 40
+right edge to center last image: 50
+
+
+
+footer:
+text to text: 50
+left edge to first text: 60
+right edge to last text: 50
+bar height: 80
+above and below text: 30
+text height: 20
+
+hl
+3f3f3f
+hr
+212121
+f
+666666
