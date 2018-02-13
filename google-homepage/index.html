@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<head>
-		<meta charset="utf-8">
 		<title>Google</title>
-		<link href="styles/style.css" rel="stylesheet" type="text/css">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-	<div id="main">
-	</div>
+		<header>
+			<ul id="header_items">
+				<li class="left_items">
+					<a href="#">About</a>
+					<a href="#">Store</a>
+				</li>
+				<li class="right_items">
+					<a href="#">Mail</a>
+					<a href="#">Images</a>
+					<a href="#"><img src="images/apps_grey.png" width="16" height="16"></a>
+					<a href="#"><img src="images/notification_bell_grey.png" width="20" height="20"></a>
+					<a href="#"><img src="images/user_icon.png" width="30" height="30"></a>
+				</li>
+			</ul>
+		</header>
+
+		<div id="main_div">
+			<div id="google_logo">
+				<img src="images/googlelogo_color.png">
+			</div>
+			<form>
+				<input id="search" type="text"><br>
+				<input class="search_buttons" type="submit" value="Google Search">
+				<input class="search_buttons" type="submit" value="I'm Feeling Lucky">
+			</form>
+		</div>
+
+		<footer>
+			<ul id="footer_items">
+				<li class="left_items">
+					<a href="#">Advertising</a>
+					<a href="#">Business</a>
+				</li>
+				<li class="right_items">
+					<a href="#">Privacy</a>
+					<a href="#">Terms</a>
+					<a href="#">Settings</a>
+				</li>
+			</ul>
+		</footer>
 	</body>
 </html>

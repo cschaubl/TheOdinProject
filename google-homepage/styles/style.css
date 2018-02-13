@@ -1,38 +1,116 @@
-html {
-  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
-  background-color: #00539F;
-  font-family: 'Open Sans', sans-serif;
-}
+/*-----Main Sections-----*/
 
 body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #FF9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  width: 100vw;
+  height: 100vh;
+  font-size: small;
+  font-family: Arial,sans-serif;
 }
 
-h1 {
-  font-size: 60px;
+/*-----NavBars-----*/
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#main_div {
   text-align: center;
-  margin: 0;
-  padding: 20px 0;    
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
+  padding-top: 200px;
 }
 
-p, li {
-  font-size: 16px;    
-  line-height: 2;
-  letter-spacing: 1px;
+footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-img {
+li {
+  vertical-align: middle;
+  display: flex;
+}
+
+#header_items {
+  padding: 24px 16px;
+  align-items: center;
+}
+
+#footer_items {
+  padding: 24px 16px;
+  align-items: center;
+}
+
+.left_items {
+  float: left;
+}
+
+.right_items {
+  float: right;
+}
+
+#header_items .left_items a {
+  margin: 0 10px;
+}
+
+#header_items .right_items a {
+  margin: 0 10px;
+}
+
+#footer_items .left_items a {
+  margin: 0 15px;
+}
+
+#footer_items .right_items a {
+  margin: 0 15px;
+}
+
+/*-----Links-----*/
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*-----Form-----*/
+
+input[type=text] {
+  max-width: 450px;
   display: block;
-  margin: 0 auto;
+  width: 75%;
+  height: 44px;
+  padding: 12px 20px;
+  margin: 25px auto 15px auto;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+  box-shadow: 0.5px 1px 3px #dfdfdf;
 }
 
-#logo {
-  width: 200px;
-  height: 200px;
+input[type=text]:hover {
+  box-shadow: 0px 2.5px 6px #c6c6c6;
+}
+
+input[type=submit] {
+  background-color: #f5f5f5;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin: 3px;
+}
+
+input[type=submit]:hover {
+  background-color: #f7f7f7;
+  border: 1px solid #c6c6c6;
+  color: #000000;
+  box-shadow: 0px 1px 4px #dfdfdf;
 }
